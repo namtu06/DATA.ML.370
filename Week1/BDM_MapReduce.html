@@ -7539,7 +7539,9 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>A bag (multiset) is a group of objects where a single object can appear multiple times, whereas it can appear only once in a set.</p>
+<ol>
+<li>A bag (multiset) is a group of objects where a single object can appear multiple times, whereas it can appear only once in a set.</li>
+</ol>
 </div>
 </div>
 </div>
@@ -7550,7 +7552,9 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>The operation produces the natural join between 2 relations. The first relation is comprised of 2 attributes A, B. The second relation is also comprised of 2 attributes C and D, but the second relation has been applied a condition of only taking tuples whose value in C is larger than that in attribute B of the first relation</p>
+<ol start="2">
+<li>The operation produces the natural join between 2 relations. The first relation is comprised of 2 attributes A, B. The second relation is also comprised of 2 attributes C and D, but the second relation has been applied a condition of only taking tuples whose value in C is larger than that in attribute B of the first relation</li>
+</ol>
 </div>
 </div>
 </div>
@@ -7575,6 +7579,33 @@ for (a, b) in R:
 
 
 </code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=94478d84">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>This implementation compares each row of R to every single row of S, so every instance the condition is met, it is appended to the result list. This lines up with the definition of Natural Join in the book</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b33f8358">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>"Compare each pair of tuples, one from
+each relation. If the tuples agree on all the attributes that are common
+to the two schemas, then produce a tuple that has components for each
+of the attributes in either schema and agrees with the two tuples on each
+attribute. If the tuples disagree on one or more shared attributes, then
+produce nothing from this pair of tuples"</p>
 </div>
 </div>
 </div>
